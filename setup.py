@@ -13,6 +13,7 @@ setup(
     description="test publishing on pypi",
     long_description=open('README.md').read(),
     include_package_data=True,
+    zip_safe=False,
     url='http://github.com/fspot/fspotlib',
     entry_points = {
         'console_scripts': [
